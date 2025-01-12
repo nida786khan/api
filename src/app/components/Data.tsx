@@ -43,10 +43,13 @@ const Data: React.FC<DataProps> = ({ info }) => {
 };
 
 export default Data;
+<<<<<<< HEAD
 
   
 
 
 
+=======
+>>>>>>> 5729428847f6bed05877f66339610d3617249c6a
 
 
