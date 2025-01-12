@@ -15,7 +15,7 @@ const Data: React.FC<DataProps> = ({ info }) => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap justify-start gap-6">
-            <div className="p-4 w-1/3 sm:w-1/2 lg:w-1/4 xl:w-1/5">
+            <div className="p-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
               <div className="h-full bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl hover:scale-105">
                 <div className="relative group">
                   <img
@@ -43,6 +43,7 @@ const Data: React.FC<DataProps> = ({ info }) => {
 };
 
 export default Data;
+
   
 
 
